@@ -59,7 +59,7 @@ result
 #webpage_text[pos_job_txt-100:pos_job_txt+100]
 
 # %%
-csvfilename = 'jobcount.csv'
+csvfilename = './jobcount.csv'
 #First time
 #result.to_csv(csvfilename, index=False)
 if(pd.read_csv(csvfilename).iloc[-1][-1]!=today):
